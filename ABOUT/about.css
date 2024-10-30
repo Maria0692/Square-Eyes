@@ -1,0 +1,157 @@
+html, body {    
+   height: 100%;    
+   margin: 0;    
+   padding: 0;
+}
+
+header {    
+   margin: 0;    
+   font-family: Arial, sans-serif;    background: #000;    
+   color: #fff;    
+   display: flex;    
+   justify-content: center;
+}
+
+.navbar {    
+   display: flex;    
+   flex-direction: column;    
+   align-items: center;    
+   justify-content: center;    
+   padding: 20px; 
+   background-color: #000;    
+   box-sizing: border-box;    
+   width: 100%;    
+   max-width: 1920px; 
+}
+
+.logo {    
+   max-width: 250px;    
+   height: auto;    
+}
+
+.menu {    
+   display: flex;    
+   align-items: center;    
+   gap: 100px;     
+   flex-wrap: wrap;    
+   justify-content: center;    
+   margin-bottom: 50px; 
+}
+
+.menu a, .menu input {    
+   color: #fff;    
+   text-decoration: none;    
+   font-size: 20px; 
+}
+
+.menu input {    
+   padding: 10px;  border-radius: 25px;    
+   border: none;    
+   outline: none;    
+   background-color: #333;    
+   color: #fff;
+   
+}
+
+.icons {    
+   display: flex;   
+   gap: 20px; 
+
+}
+
+.icons i {    
+   font-size: 40px; 
+}
+
+@media (min-width: 601px) {    
+   .navbar {        
+       flex-direction: row;        justify-content: center;    }    
+       
+       .logo {        
+           margin-bottom: 0;        margin-right: 60px;    }    
+       .menu {        
+               margin-bottom: 0;    }
+           }
+
+
+
+
+main{
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(black,rgb(36, 36, 59) );;
+    color: white;
+    min-height: 100vh;
+    
+ }
+ 
+ .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px ;
+ 
+ }
+ 
+ .footer {    
+   display: flex;    
+   flex-wrap: wrap;    
+   justify-content: space-between;    
+   align-items: center;    
+   max-width: 1200px;    
+   margin: 0 auto;     
+   background-color: #ccc; 
+   padding: 20px;
+}
+
+.contact-info {    
+   
+   flex: 1;    
+   min-width: 200px;    
+   margin-bottom: 10px;
+}
+
+.contact-info h3, .contact-info p {    
+   margin: 10px;    
+   display: flex;    
+   align-items: flex-start;
+}
+
+p{
+   padding: 5px;
+
+}
+
+
+.icon {    
+   margin-right: 8px;
+}
+
+.social-icons {    
+   display: flex;    
+   gap: 15px;    
+   flex: 1;    
+   justify-content: flex-end;
+}
+
+.social-icons img {    
+   width: 40px;    
+   height: 40px;    
+   cursor: pointer;    
+   border-radius: 50%;    
+   transition: transform 0.2s;
+}
+
+.social-icons img:hover {    
+   transform: scale(1.1);
+} 
+
+@media (max-width: 600px) {    
+   
+   .footer {        
+      flex-direction: column;        
+      align-items: flex-start;    }        
+      
+      .social-icons {        
+         justify-content: flex-start;    }
+      }

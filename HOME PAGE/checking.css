@@ -115,6 +115,11 @@ main {
         margin: 5px;
         font-size: 18px;
     }
+
+    .categories a {
+        text-decoration: none;
+        color: #fff;
+    }
     
     .categories button:hover {
         background-color: #008c7a;
@@ -122,6 +127,12 @@ main {
     
     .section {
         padding: 20px;
+    }
+
+    .section a {
+
+        text-decoration: none;
+        color: #fff;
     }
     
     h2 {
@@ -136,7 +147,10 @@ main {
     }
     
     .movie-item {
-        display: flex;    flex-direction: column;    align-items: center;    width: calc(25% - 20px);
+        display: flex;    
+        flex-direction: column;    
+        align-items: center;    
+        width: calc(25% - 20px);
     }
     
     .movie-item img {
@@ -160,6 +174,7 @@ main {
         box-shadow: 0 4px 8px black;
         
     }
+
     
     button:hover {
         background-color: #008c7a;

@@ -5,13 +5,13 @@ Below is a simple guide to help you navigate through the website.
 
 ## Features
 
-**Home Page**: Discover popular and trending movies with quick access options.
-**Profile Page**: Manage your account details and preferences.
-**Shopping Cart**: View selected movies, adjust quantities, and proceed to checkout.
-**Payment Method**: Securely add and manage payment options.
-**Library**: Access your purchased movies and stream them anytime.
-**About Us**: Learn more about our mission and services.
-**Genre Browsing**: Explore movies by genres such as Crime, Action, Drama, and more.
+-**Home Page**: Discover popular and trending movies with quick access options.
+-**Profile Page**: Manage your account details and preferences.
+-**Shopping Cart**: View selected movies, adjust quantities, and proceed to checkout.
+-**Payment Method**: Securely add and manage payment options.
+-**Library**: Access your purchased movies and stream them anytime.
+-**About Us**: Learn more about our mission and services.
+-**Genre Browsing**: Explore movies by genres such as Crime, Action, Drama, and more.
 
 ## Pages Overview
 1. **Home Page**:

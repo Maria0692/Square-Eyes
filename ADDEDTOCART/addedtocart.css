@@ -121,6 +121,11 @@ main {
         font-size: 18px;
     }
     
+    .categories a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
     .categories button:hover {
         background-color: #008c7a;
     }

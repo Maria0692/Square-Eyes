@@ -80,7 +80,7 @@ main {
 .container2 {            
  color: #fff;            
  font-family: Arial, sans-serif;            
- margin: 10 px;            
+ margin: 10 px;           
  display: flex;            
  justify-content: center;            
  align-items: center;            
@@ -92,25 +92,20 @@ main {
 
 h1 {            
     font-size: 2.5em;            
-    margin: 0.5em 0;        
+    margin: 1em 0;
+    margin-left: 1em;        
 }        
 
 .message {            
     font-size: 1.5em;            
-    margin-bottom: 2em;        
+    margin-bottom: 2em;
+    margin-left: 2em;        
 }        
 
-.library-link {            
-    display: flex;            
-    align-items: center;            
-    text-decoration: none;            
-    color: #3ec1b8;            
-    font-size: 1.5em;            
-    font-weight: bold;        
-}        
+       
 
-.popcorn-image {           
-    width: 150px;         
+.empty {           
+    width: 350px;         
     height: auto;          
     margin-bottom: 10em;
    

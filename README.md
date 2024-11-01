@@ -4,6 +4,7 @@ This platform allows movie enthusiasts to browse, purchase, and stream a wide va
 Below is a simple guide to help you navigate through the website.
 
 ## Features
+
 **Home Page**: Discover popular and trending movies with quick access options.
 **Profile Page**: Manage your account details and preferences.
 **Shopping Cart**: View selected movies, adjust quantities, and proceed to checkout.

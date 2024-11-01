@@ -102,6 +102,7 @@ main{
    margin: 0 auto;     
    background-color: #ccc; 
    padding: 20px;
+   width: 100%;
 }
 
 .contact-info {    
